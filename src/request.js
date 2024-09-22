@@ -20,7 +20,7 @@ exports.request =
               ...options,
               headers: {
                 ...options.headers,
-                "X-Forwarded-For": randomIpV4()
+                "X-Forwarded-For": randomIpV4(),
               },
             },
             (res) => {
@@ -64,7 +64,7 @@ exports.request =
                 ...options,
                 headers: {
                   ...options.headers,
-                  "X-Forwarded-For": randomIpV4()
+                  "X-Forwarded-For": randomIpV4(),
                 },
               });
               try {
@@ -74,11 +74,12 @@ exports.request =
               }
             } catch (err) {
               console.log(err);
-              reject(new Error(`Request for ${urlString} failed. Reason: ${err}`));
+              reject(
+                new Error(`Request for ${urlString} failed. Reason: ${err}`),
+              );
             }
           } catch (err) {
             reject(err);
           }
         });
       };
-
