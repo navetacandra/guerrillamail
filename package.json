@@ -1,0 +1,31 @@
+{
+  "name": "@navetacandra/guerrillamail",
+  "version": "0.0.1",
+  "description": "Guerrillamail API Wrapper",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navetacandra/guerrillamail.git"
+  },
+  "keywords": [
+    "guerrillamail",
+    "temp-mail",
+    "mail",
+    "email",
+    "navetacandra",
+    "gmail",
+    "guerrilla",
+    "api",
+    "wrapper",
+    "api-wrapper"
+  ],
+  "author": "navetacandra <naveta.cand@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navetacandra/guerrillamail/issues"
+  },
+  "homepage": "https://github.com/navetacandra/guerrillamail#readme"
+}
