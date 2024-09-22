@@ -1,6 +1,7 @@
 {
   "name": "@navetacandra/guerrillamail",
   "version": "0.0.1",
+  "private": false,
   "description": "Guerrillamail API Wrapper",
   "main": "src/index.js",
   "scripts": {
@@ -27,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/navetacandra/guerrillamail/issues"
   },
-  "homepage": "https://github.com/navetacandra/guerrillamail#readme"
+  "homepage": "https://github.com/navetacandra/guerrillamail#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
